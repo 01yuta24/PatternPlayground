@@ -1,0 +1,248 @@
+$Regexp:red;
+$bodyColor:#f5f5dc;
+$baseColor:#333;
+
+
+html {
+    font-family: 'Times New Roman',Times, serif;
+
+}
+
+body{
+    margin: 0;
+    background-image: url(https://beiz.jp/images_P/texture/texture_00013.jpg);
+    background-size: 100% auto;
+    background-attachment: fixed;
+    background-position: center;
+    color: $baseColor;
+}
+
+h1{
+    font-size: 60px;
+}
+
+h2{
+    font-size: 40px;
+}
+p{
+    font-size: 30px;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: $baseColor;
+}
+
+img {
+    width: 400px;
+    height: auto;
+    margin-right: 50px;
+    border-radius: 5px;
+}
+
+footer{
+    // display: flex;
+    // align-items: center;
+    // margin: 100px auto;
+    position: relative;
+    height: 200px;
+    background-image:url(https://beiz.jp/images_P/cloth/cloth_00148.jpg);
+}
+
+.footer{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -25px 0 0 -25px;
+}
+
+#sleep-img{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.margin-left{
+    margin-left: 50px;
+}
+
+.result-img{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.reImg-box{
+    margin: 0 100px;
+}
+
+.reImg{
+    width: 400px;
+    height: 300px;
+}
+
+.profile-p{
+    margin: 20px 0;
+    font-size: 30px;
+}
+
+.profile-container {
+    // max-width: 600px;
+    max-width: 60%;
+    margin: 150px auto 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.details{
+    flex-grow: 1;
+}
+
+.myName{
+    margin-top: 0;
+    font-size: 40px;
+
+}
+
+
+.w80{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.w60{
+    width: 80%;
+    margin: 0 auto;
+    // margin-top: 50px;
+}
+
+
+.w-container{
+    width: 96%;
+    margin: auto;
+}
+
+#myHeader{
+    position: fixed;
+    top: 0px;
+    // left: 0px;
+    // right: auto;
+    // margin: 0;
+    // padding:5px 0;
+    width: 100%;
+    font-size: 25px;
+    // color:$baseColor; 
+    background-image:url(https://beiz.jp/images_P/cloth/cloth_00148.jpg);
+    // background-color: ;
+}
+
+.myHeader-name{
+    margin:20px 0;
+    font-size: 50px;
+}
+
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.header-menu{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.container{
+    margin-top: 20px;
+    padding-top: 10px;
+
+}
+
+.m-top{
+    margin-top: 150px;
+}
+.m-bottom{
+    margin-bottom: 50px;
+}
+
+.btn-flex{
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.btn{
+    height: 60px;
+    font-size: 30px;
+    font-family: 'Times New Roman',Times, serif;
+    background-color: rgb(214, 209, 209);
+}
+
+.perfect-btn{
+    display: inline;
+}
+
+
+.input{
+    width: 200px;
+}
+
+.red{
+    color: $Regexp;
+    font-weight: 100;
+}
+
+.text-center{
+    text-align: center;
+}
+
+hr{
+    border: none;
+    border-top: 3px double #333;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-bottom: 200px;
+}
+
+.grid-img{
+    width: 95%;
+    height: 100%;
+}
+
+.one-img{
+    width: 90%;
+    height: auto;
+}
+
+.center{
+    text-align: center;
+}
+
+.learn-p{
+    font-size: 40px;
+    margin: 5px auto;
+}
+
+.learn-title{
+    margin: 10px auto;
+}
+
+.m-bottom200{
+    margin-bottom: 200px;
+}
